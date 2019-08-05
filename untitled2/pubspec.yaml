@@ -1,0 +1,24 @@
+name: untitled2
+description: A web app that uses AngularDart Components
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: ksusha <msksushantonova@gmail.com>
+
+environment:
+  sdk: '>=2.4.0 <3.0.0'
+
+dependencies:
+  angular: ^5.3.0
+  angular_components: ^0.13.0
+  ksi_angulardart_shared:
+    path: ../ksi_angulardart_shared
+
+
+
+dev_dependencies:
+  angular_test: ^2.3.0
+  build_test: ^0.10.3
+  build_runner: ^1.6.2
+  build_web_compilers: ^2.0.0
+  pedantic: ^1.7.0
+  test: ^1.6.0
